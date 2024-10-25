@@ -1,7 +1,13 @@
-
+import { FeedModal } from "./FeedModal"
+import { FeedPhotos } from "./FeedPhotos"
 
 export const Feed = () => {
   return (
-    <div>Feed</div>
+    <div>
+      <FeedModal />
+      <FeedPhotos />
+    </div>
+    
   )
 }
+
