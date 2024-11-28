@@ -13,7 +13,7 @@ body {
     font-family: var(--type-first);
 }
 
-h1, h2, h3, h4, p {
+h1, h2, h3, h4 {
     margin: 0px;
 }
 
@@ -83,4 +83,15 @@ button, input {
         opacity: 1;
         transform: initial;
     }
+}
+
+/*Para colocar o footer no final da página, sendo App como um body que envolve tudo, o AppBody sendo o conteúdo principal/central e o 10rem sendo a altura definida para o footer*/
+.App {
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh, 10rem);
+}
+
+.AppBody {
+    flex: 1;
 }
