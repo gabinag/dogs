@@ -1,7 +1,10 @@
+import { Head } from "../Helper/Head"
 
 
 export const UserStats = () => {
   return (
-    <div>UserStats</div>
+    <div>
+      <Head title="Estatísticas" />
+    </div>
   )
 }
