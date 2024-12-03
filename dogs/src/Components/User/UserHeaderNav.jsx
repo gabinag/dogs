@@ -35,10 +35,6 @@ export const UserHeaderNav = () => {
                 <MinhasFotos />
                 {mobile && 'Minhas Fotos'}
             </NavLink>
-            <NavLink to="/conta/estatisticas">
-                <Estatisticas />
-                {mobile && 'Estatísticas'}
-            </NavLink>
             <NavLink to="/conta/postar">
                 <AdicionarFoto />
                 {mobile && 'Adicionar Foto'}
