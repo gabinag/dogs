@@ -25,7 +25,7 @@ export const FeedPhotos = ({page, user, setModalPhoto, setInfinite}) => {
 
   return (
     <ul className={`${styles.feed} animeLeft`}>
-        {data.map(photo => <FeedPhotosItem key={photo.id} photo={photo} setModalPhoto={setModalPhoto}/>)}
+        {data.map((photo) => <FeedPhotosItem key={photo.id} photo={photo} setModalPhoto={setModalPhoto}/>)}
     </ul>
   );
   else return null;
